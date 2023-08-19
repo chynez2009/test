@@ -1,0 +1,157 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #001F3F; /* Navy blue */
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
+
+.school-name h1 {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #001F3F; /* Navy blue */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF6600; /* Orange */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #001F3F; /* Navy blue */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Your existing CSS styles */
+
+/* Add responsive design styles */
+@media screen and (max-width: 768px) {
+    /* Adjust header navigation for smaller screens */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust hero section for smaller screens */
+    .hero-content h1 {
+        font-size: 24px;
+    }
+}
+
+/* Additional media queries for further responsiveness */
+@media screen and (max-width: 480px) {
+    /* Adjust hero section further for even smaller screens */
+    .hero-content h1 {
+        font-size: 20px;
+    }
+}
+
+/* Your existing CSS styles */
+
+/* Add animations and adjust colors */
+.header-animation {
+    animation: fadeInDown 1s ease-out;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF6600; /* Orange */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #FF4500; /* Darker orange on hover */
+}
+
+/* Additional media queries and colors */
+@media screen and (max-width: 768px) {
+    /* Your existing responsive styles */
+}
+
+@media screen and (max-width: 480px) {
+    /* Your existing responsive styles */
+}
